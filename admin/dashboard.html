@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="../css/dash.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Dashboard - Unem</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <img src="../media/Logo.png" alt="">
+            </div>
+
+            <span class="logo_name">UNEM</span>
+        </div>
+
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="dashboard.html">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Dashboard</span>
+                </a></li>
+                <li><a href="pacientes.html">
+                    <i class="uil uil-user-md"></i>
+                    <span class="link-name">Pacientes</span>
+                </a></li>
+                <li><a href="doctores.html">
+                    <i class="uil uil-medical-square-full"></i>
+                    <span class="link-name">Doctores</span>
+                </a></li>
+                <li><a href="enfermera.html">
+                    <i class="uil uil-heart-medical"></i>
+                    <span class="link-name">Enfermeras</span>
+                </a></li>
+                <li><a href="asistente.html">
+                    <i class="uil uil-thumbs-up"></i>
+                    <span class="link-name">Asistentes</span>
+                </a></li>
+                <li><a href="recetas.html">
+                    <i class="uil uil-file-medical-alt"></i>
+                    <span class="link-name">Recetas</span>
+                </a></li>
+                <li><a href="medicamentos.html">
+                    <i class="uil uil-tablets"></i>
+                    <span class="link-name">Medicamentos</span>
+                </a></li>
+                <li><a href="diagnostico.html">
+                    <i class="uil uil-stethoscope"></i>
+                    <span class="link-name">Diagnostico</span>
+                </a></li>
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="../index.html">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Salir</span>
+                </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Modo Oscuro</span>
+                </a>
+
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Search here...">
+            </div>
+            
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Dashboard</span>
+                </div>
+
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class="uil uil-user-md"></i>
+                        <span class="text">Total Pacientes</span>
+                        <span class="number">10,000</span>
+                    </div>
+                    <div class="box box2">
+                        <i class="uil uil-heart-medical"></i>
+                        <span class="text">Total Enfermeras</span>
+                        <span class="number">9505</span>
+                    </div>
+                    <div class="box box3">
+                        <i class="uil uil-thumbs-up"></i>
+                        <span class="text">Total Asistentes</span>
+                        <span class="number">8505</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity">
+                <div class="title">
+                    <i class="uil uil-clock-three"></i>
+                    <span class="text">Pacientes Ingresados Recientemente</span>
+                </div>
+
+                <div class="activity-data">
+                    <div class="data names">
+                        <span class="data-title">Nombre</span>
+                        <span class="data-list">Brayan Ramirez Miranda</span>
+                        <span class="data-list">Tiziana Denisse Brinach</span>
+                        <span class="data-list">Nicolas Librero Lozano</span>
+                        <span class="data-list">Alejandra Librero Lozano</span>
+                    </div>
+                    <div class="data email">
+                        <span class="data-title">Email</span>
+                        <span class="data-list">brm14@gmail.com</span>
+                        <span class="data-list">tzb22@gmail.com</span>
+                        <span class="data-list">nlb13@gmail.com</span>
+                        <span class="data-list">alb25@gmail.com</span>
+                    </div>
+                    <div class="data joined">
+                        <span class="data-title">Registrado</span>
+                        <span class="data-list">2022-12-04</span>
+                        <span class="data-list">2022-12-04</span>
+                        <span class="data-list">2022-12-04</span>
+                        <span class="data-list">2022-12-04</span>
+                    </div>
+                    <div class="data type">
+                        <span class="data-title">Diagnostico</span>
+                        <span class="data-list">V.I.H</span>
+                        <span class="data-list">COVID-19</span>
+                        <span class="data-list">COVID-19</span>
+                        <span class="data-list">COVID-19</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../js/dash.js"></script>
+</body>
+</html>
